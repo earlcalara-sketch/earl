@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>shopee</title>
+  <style>
+    Body {
+      Height: 3000px;
+      Font-family: Arial;
+    }
+
+
+    .close-btn {
+      Position: absolute;
+      Top: 10px;
+      Right: 10px;
+      Background: black;
+      Color: white;
+      Width: 30px;
+      Height: 30px;
+      Text-align: center;
+      Line-height: 30px;
+      Border-radius: 50%;
+    }
+
+  
+    .fixed-box {
+      Position: fixed;
+      Bottom: 20px;
+      Right: 20px;
+      Width: 320px;
+      Height: 180px;
+      Background: gray;
+    }
+
+
+    .product {
+      Position: relative;
+      Display: inline-block;
+      Margin: 50px;
+    }
+
+    .product img {
+      Width: 250px;
+      Height: 250px;
+    }
+
+ 
+    .discount {
+      Position: absolute;
+      Top: 10px;
+      Right: 10px;
+      Background: black;
+      Color: white;
+      Padding: 5px;
+      Font-size: 12px;
+    }
+
+   
+    .cart-btn {
+      Position: absolute;
+      Bottom: 10px;
+      Left: 50%;
+      Transform: translateX(-50%);
+      Padding: 5px 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <div class=”close-btn”>X</div>
+
+
+  <div class=”fixed-box”></div>
+
+
+  <div class="product">
+    <img src="bg.jpg"  alt=”shirt”>
+    <div class=”discount”>20% OFF</div>
+     <button class=”cart-btn”>Add to Cart</button>
+  </div>
+
+
+  <div class=”product”>
+    <img src="ph.jpg" alt=”shirt”>
+    <div class=”discount”>20% OFF</div>
+    <button class=”cart-btn”>Add to Cart</button>
+  </div>
+
+</body>
+</html>
+
